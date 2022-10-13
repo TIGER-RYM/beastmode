@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/TIGER-RYM/FIT3179.github.io/main/Critique/data/Medals.csv"
+          "url": "https://raw.githubusercontent.com/TIGER-RYM/beastmode/main/Critique/data/Medals.csv"
         },
         "key": "Country",
         "fields": ["Total"]
