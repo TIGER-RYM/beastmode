@@ -4,7 +4,7 @@
   "height": 500,
   "title": "Total Medals numbers of each country",
   "data": {
-    "url": "https://raw.githubusercontent.com/TIGER-RYM/FIT3179.github.io/main/Critique/data/Medals.csv"
+    "url": "https://raw.githubusercontent.com/TIGER-RYM/beastmode/main/Critique/data/Medals.csv"
   },
   "params": [
     {
