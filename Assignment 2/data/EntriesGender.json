@@ -30,16 +30,6 @@
     "Total": 98
   },
   {
-    "Discipline": "Artistic Swimming",
-    "sex": 2,
-    "Total": 105
-  },
-  {
-    "Discipline": "Artistic Swimming",
-    "sex": 1,
-    "Total": 1
-  },
-  {
     "Discipline": "Athletics",
     "sex": 2,
     "Total": 969
@@ -198,16 +188,6 @@
     "Discipline": "Judo",
     "sex": 1,
     "Total": 201
-  },
-  {
-    "Discipline": "Rhythmic Gymnastics",
-    "sex": 2,
-    "Total": 96
-  },
-  {
-    "Discipline": "Rhythmic Gymnastics",
-    "sex": 1,
-    "Total": 1
   },
   {
     "Discipline": "Rowing",
