@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 800,
+  "width": 500,
+  "height": 500,
   "title": "Total Medals numbers of each country",
   "data": {
     "url": "https://raw.githubusercontent.com/TIGER-RYM/beastmode/main/Critique/data/Medals.csv"
@@ -39,7 +39,7 @@
         "align": "right",
         "baseline": "middle",
         "dx": -12,
-        "fontSize": 20,
+        "fontSize": 15,
         "fontStyle": "italic",
         "fontWeight":"bold"
       },
