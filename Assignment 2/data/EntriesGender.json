@@ -37,7 +37,7 @@
   {
     "Discipline": "Artistic Swimming",
     "sex": 1,
-    "Total": 0
+    "Total": 1
   },
   {
     "Discipline": "Athletics",
@@ -117,7 +117,7 @@
   {
     "Discipline": "Canoe Sprint",
     "sex": 1,
-    "Male": 126
+    "Total": 126
   },
   {
     "Discipline": "Cycling BMX Freestyle",
@@ -127,7 +127,7 @@
   {
     "Discipline": "Cycling BMX Freestyle",
     "sex": 1,
-    "Male": 9
+    "Total": 9
   },
   {
     "Discipline": "Cycling BMX Racing",
@@ -137,25 +137,27 @@
   {
     "Discipline": "Cycling BMX Racing",
     "sex": 1,
-    "Male": 24
-  },
-  {
-    "Discipline": "Cycling Mountain Bike",
-    "Female": 38,
-    "Male": 38,
-    "Total": 76
+    "Total": 24
   },
   {
     "Discipline": "Cycling Road",
-    "Female": 70,
-    "Male": 131,
-    "Total": 201
+    "sex": 1,
+    "Total": 131
+  },
+  {
+    "Discipline": "Cycling Road",
+    "Total": 70,
+    "sex": 2
   },
   {
     "Discipline": "Cycling Track",
-    "Female": 90,
-    "Male": 99,
-    "Total": 189
+    "Total": 90,
+    "sex": 2
+  },
+  {
+    "Discipline": "Cycling Track",
+    "sex": 1,
+    "Total": 99
   },
   {
     "Discipline": "Diving",
@@ -185,7 +187,7 @@
   {
     "Discipline": "Football",
     "sex": 1,
-    "Male": 344
+    "Total": 344
   },
   {
     "Discipline": "Judo",
@@ -195,7 +197,7 @@
   {
     "Discipline": "Judo",
     "sex": 1,
-    "Male": 201
+    "Total": 201
   },
   {
     "Discipline": "Rhythmic Gymnastics",
@@ -205,7 +207,7 @@
   {
     "Discipline": "Rhythmic Gymnastics",
     "sex": 1,
-    "Total": 0
+    "Total": 1
   },
   {
     "Discipline": "Rowing",
