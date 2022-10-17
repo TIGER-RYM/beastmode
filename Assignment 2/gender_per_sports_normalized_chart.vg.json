@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/TIGER-RYM/beastmode/main/Assignment%202/data/EntriesGender.json"},
+    "transform": [
+      {"calculate": "datum.sex == 2 ? 'Female' : 'Male'", "as": "gender"}
+    ],
+    "height": {"step": 17},
+    "encoding": {
+      "y": {"field": "Discipline"}
+    },
+    "layer": [{
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "aggregate": "sum", "field": "Total",
+          "title": "Percentage",
+          "stack":  "normalize"
+        },
+        "color": {
+          "field": "gender",
+          "scale": {"range": ["#675193", "#ca8861"]}
+        }
+      }
+    }, {
+      "mark": {"type": "text", "opacity": 0.9, "color": "white"},
+      "encoding": {
+        "x": {
+          "aggregate": "sum", "field": "Total",
+          "title": "Percentage",
+          "stack":  "normalize",
+          "bandPosition": 0.5
+        },
+        "text": {
+          "aggregate": "sum", "field": "Total",
+          "title": "population"
+        },
+        "detail": {
+          "field": "gender"
+        }
+      }
+    }]
+  }
+  

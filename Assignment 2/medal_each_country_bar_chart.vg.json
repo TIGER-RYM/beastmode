@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 800,
+  "title": "Total Medals numbers of each country",
+  "data": {
+    "url": "https://raw.githubusercontent.com/TIGER-RYM/beastmode/main/Critique/data/Medals.csv"
+  },
+  "params": [
+    {
+      "name": "Medal_Above",
+      "value": 10,
+      "bind": {
+        "input": "range",
+        "min": 10,
+        "max": 113,
+        "step": 1,
+        "name": "Minimum medal: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Total >= Medal_Above"}],
+  "encoding": {
+    "y": {"field": "Country", "type": "nominal", "title": "Country"},
+    "x": {"field": "Total", "type": "quantitative"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Gold", "type": "quantitative", "format": ","},
+      {"field": "Silver", "type": "quantitative", "format": ","},
+      {"field": "Bronze", "type": "quantitative", "format": ","},
+      {"field": "Rank by Total", "type": "quantitative", "format": ","}
+    ]
+  },
+  "layer": [
+    {"mark": "bar"},
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 20,
+        "fontStyle": "italic",
+        "fontWeight":"bold"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "orange"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'Australia' || datum['Country'] == 'United Kingdom' || datum['Country'] == 'Japan' || datum['Country'] == 'United States of America' || datum['Country'] == 'Russia' || datum['Country'] == 'China'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+    }
+  ]
+}
