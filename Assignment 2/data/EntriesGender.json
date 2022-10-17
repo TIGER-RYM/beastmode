@@ -1,0 +1,270 @@
+[
+  {
+    "Discipline": "3x3 Basketball",
+    "sex": 2,
+    "Total": 32
+  },
+  {
+    "Discipline": "3x3 Basketball",
+    "sex": 1,
+    "Total": 32
+  },
+  {
+    "Discipline": "Archery",
+    "sex": 2,
+    "Total": 64
+  },
+  {
+    "Discipline": "Archery",
+    "sex": 1,
+    "Total": 64
+  },
+  {
+    "Discipline": "Artistic Gymnastics",
+    "sex": 2,
+    "Total": 98
+  },
+  {
+    "Discipline": "Artistic Gymnastics",
+    "sex": 1,
+    "Total": 98
+  },
+  {
+    "Discipline": "Artistic Swimming",
+    "sex": 2,
+    "Total": 105
+  },
+  {
+    "Discipline": "Artistic Swimming",
+    "sex": 1,
+    "Total": 0
+  },
+  {
+    "Discipline": "Athletics",
+    "sex": 2,
+    "Total": 969
+  },
+  {
+    "Discipline": "Athletics",
+    "sex": 1,
+    "Total": 1072
+  },
+  {
+    "Discipline": "Badminton",
+    "sex": 2,
+    "Total": 86
+  },
+  {
+    "Discipline": "Badminton",
+    "sex": 1,
+    "Total": 87
+  },
+  {
+    "Discipline": "Baseball/Softball",
+    "sex": 2,
+    "Total": 90
+  },
+  {
+    "Discipline": "Baseball/Softball",
+    "sex": 1,
+    "Total": 144
+  },
+  {
+    "Discipline": "Basketball",
+    "sex": 2,
+    "Total": 144
+  },
+  {
+    "Discipline": "Basketball",
+    "sex": 1,
+    "Total": 144
+  },
+  {
+    "Discipline": "Beach Volleyball",
+    "sex": 2,
+    "Total": 48
+  },
+  {
+    "Discipline": "Beach Volleyball",
+    "sex": 1,
+    "Total": 48
+  },
+  {
+    "Discipline": "Boxing",
+    "sex": 2,
+    "Total": 102
+  },
+  {
+    "Discipline": "Boxing",
+    "sex": 1,
+    "Total": 187
+  },
+  {
+    "Discipline": "Canoe Slalom",
+    "sex": 2,
+    "Total": 41
+  },
+  {
+    "Discipline": "Canoe Slalom",
+    "sex": 1,
+    "Total": 41
+  },
+  {
+    "Discipline": "Canoe Sprint",
+    "sex": 2,
+    "Total": 123
+  },
+  {
+    "Discipline": "Canoe Sprint",
+    "sex": 1,
+    "Male": 126
+  },
+  {
+    "Discipline": "Cycling BMX Freestyle",
+    "sex": 2,
+    "Total": 10
+  },
+  {
+    "Discipline": "Cycling BMX Freestyle",
+    "sex": 1,
+    "Male": 9
+  },
+  {
+    "Discipline": "Cycling BMX Racing",
+    "sex": 2,
+    "Total": 24
+  },
+  {
+    "Discipline": "Cycling BMX Racing",
+    "sex": 1,
+    "Male": 24
+  },
+  {
+    "Discipline": "Cycling Mountain Bike",
+    "Female": 38,
+    "Male": 38,
+    "Total": 76
+  },
+  {
+    "Discipline": "Cycling Road",
+    "Female": 70,
+    "Male": 131,
+    "Total": 201
+  },
+  {
+    "Discipline": "Cycling Track",
+    "Female": 90,
+    "Male": 99,
+    "Total": 189
+  },
+  {
+    "Discipline": "Diving",
+    "sex": 2,
+    "Total": 72
+  },
+  {
+    "Discipline": "Diving",
+    "sex": 1,
+    "Total": 71
+  },
+  {
+    "Discipline": "Equestrian",
+    "sex": 2,
+    "Total": 73
+  },
+  {
+    "Discipline": "Equestrian",
+    "sex": 1,
+    "Total": 125
+  },
+  {
+    "Discipline": "Football",
+    "sex": 2,
+    "Total": 264
+  },
+  {
+    "Discipline": "Football",
+    "sex": 1,
+    "Male": 344
+  },
+  {
+    "Discipline": "Judo",
+    "sex": 2,
+    "Total": 192
+  },
+  {
+    "Discipline": "Judo",
+    "sex": 1,
+    "Male": 201
+  },
+  {
+    "Discipline": "Rhythmic Gymnastics",
+    "sex": 2,
+    "Total": 96
+  },
+  {
+    "Discipline": "Rhythmic Gymnastics",
+    "sex": 1,
+    "Total": 0
+  },
+  {
+    "Discipline": "Rowing",
+    "sex": 2,
+    "Total": 257
+  },
+  {
+    "Discipline": "Rowing",
+    "sex": 1,
+    "Total": 265
+  },
+  {
+    "Discipline": "Rugby Sevens",
+    "sex": 2,
+    "Total": 146
+  },
+  {
+    "Discipline": "Rugby Sevens",
+    "sex": 1,
+    "Total": 151
+  },
+  {
+    "Discipline": "Swimming",
+    "Total": 361,
+    "sex": 2
+  },
+  {
+    "Discipline": "Swimming",
+    "sex": 1,
+    "Total": 418
+  },
+  {
+    "Discipline": "Tennis",
+    "Total": 94,
+    "sex": 2
+  },
+  {
+    "Discipline": "Tennis",
+    "sex": 1,
+    "Total": 97
+  },
+  {
+    "Discipline": "Water Polo",
+    "Total": 122,
+    "sex": 2
+  },
+  {
+    "Discipline": "Water Polo",
+    "sex": 1,
+    "Total": 146
+  },
+  {
+    "Discipline": "Wrestling",
+    "Total": 96,
+    "sex": 2
+  },
+  {
+    "Discipline": "Wrestling",
+    "sex": 1,
+    "Total": 193
+  }
+]
