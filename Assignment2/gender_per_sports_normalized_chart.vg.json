@@ -1,10 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 525,
+  "title": "Total Medals numbers of each country",
   "data": { "url": "https://raw.githubusercontent.com/TIGER-RYM/beastmode/main/Assignment2/data/EntriesGender.json"},
   "transform": [
     {"calculate": "datum.sex == 2 ? 'Female' : 'Male'", "as": "gender"}
   ],
-  "height": {"step": 17},
   "encoding": {
     "y": {"field": "Discipline"}
   },
@@ -17,8 +19,7 @@
         "stack":  "normalize"
       },
       "color": {
-        "field": "gender",
-        "scale": {"range": ["#675193", "#ca8861"]}
+        "field": "gender"
       }
     }
   }, {

@@ -1,48 +1,41 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Multiple Visualisations | An Example</title>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-
-  <!-- Import pure.css -->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
-
-</head>
-
-<body>
-
-  <div class="page">
-
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h1>Olympics Visualisations</h1>
-        <p>This page demonstrates how you can use pure.css grid for your layout.</p>
+  <head>
+    <title>2021 Tokyo Olympics Visualisation | An Example</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  </head>
+  <body>
+    <div class="page">
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h1 style="font-size: 60px;">2021 Tokyo Olympics Visualisation</h1>
+          <p>The visualisation has 3 parts. <br>Firstly a world heatmap visualising top medalist countries worldwide with red color.,<br> Secondly, a detailed bar chart with a filter showing number of medals for different countries. <br>Lastly, an analyzation between Female and Male athlete by using pie chart and normalized bar chart.</p>
+        </div>
       </div>
-    </div>
-    <!-- end pure grid group -->
-
-    <!-- pure grid group -->
-    <div class="pure-g">
+      <!-- end pure grid group -->
+      <p style="font-size:30px">-------------------------------------------------------------------------------------------------------</p>
+      <!-- pure grid group -->
+      <div class="pure-g">
         <div class="pure-u-2-5">
           <div class="description description-left">
-            <h2>Worldwide Total Medal Heatmap</h2>
-            <p>The map visualisation displays the number of medals obtained by each country. The tooltip shows the country name and total number of medals. The level of color shows the number of medals, the reder the color is the more metals a country has.<br><br>United state of America and China have got the most number of medals in 2021 Tokyo Olympics. <br><br>In Asia, Russia and China dominate on the number of medals. In North America, apparently U.S has got more medals than Canada. In South America, Brazil and Chile stand out worldwide. In Pacific, Australia is the only country and it has top 5 medal numbers hence it is so obvious. In the European, every country seems not so outstanding because they are small country in size and they do not have a lot of medals to stand out.</p>
+            <h2 style="font-size: 30px;">Worldwide Total Medal Heatmap</h2>
+            <p>The map visualisation displays the number of medals obtained by each country. The tooltip shows the country name and total number of medals. The level of color shows the number of medals,<span style="color:red;font-weight:bold">the reder the color is the more metals a country has</span>. <br>
+              <br><span style="color:red;font-weight:bold">United state of America</span> and <span style="color:red;font-weight:bold">China</span> have got the most number of medals in 2021 Tokyo Olympics. <br>
+              <br>In Asia, <span style="color:red;font-weight:bold">Russia and China</span> dominate on the number of medals. In North America, apparently <span style="color:red;font-weight:bold">U.S</span> has got more medals than Canada. In South America, <span style="color:red;font-weight:bold">Brazil and Chile</span> stand out worldwide. In Pacific, <span style="color:red;font-weight:bold">Australia</span> is the only country and it has top 5 medal numbers hence it is so obvious. In the European, every country seems not so outstanding because they are small country in size and they do not have a lot of medals to stand out.
+            </p>
           </div>
         </div>
         <div class="pure-u-3-5">
@@ -50,73 +43,72 @@
         </div>
       </div>
       <!-- end pure grid group -->
-
+      <p style="font-size:30px">-------------------------------------------------------------------------------------------------------</p>
       <!-- pure grid group -->
-    <div class="pure-g">
+      <div class="pure-g">
         <div class="pure-u-2-5">
           <div class="description description-left">
-            <h2>Simple bar chart with a filter of minimum 10 medals showing different countries' total number of medals</h2>
-            <p>The first and second columns are combined. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien
-              faucibus et molestie ac feugiat sed. Egestas purus viverra accumsan in nisl.</p>
+            <h2 style="font-size: 30px;">Worldwide Countries Total Medal Bar Chart</h2>
+            <p>The bar chart has imeplemented a minimum of <span style="color:red;font-weight:bold">10</span> medals filter.<br>
+            <br><br>Top medal country from each continent is shown with <span style="color:orange;font-weight:bold">text annotation of orange</span> except <span style="color:orange;font-weight:bold">Japan (The host).</span>Japan (The host).<br>
+        <br><br>By moving the slider, the bar chart changes dynamically according to the minimum number of medals filter.<br>
+    <br><br>When mouse is toggled on top of the bar chart, a tooltip contains country name, number of <span style="color:gold;font-weight:bold">Gold</span> medals, number of <span style="color:silver;font-weight:bold">Silver</span> Medals, number of <span style="color:brown;font-weight:bold">Bronze</span> medals and total number of medals will show.</p>
           </div>
         </div>
         <div class="pure-u-3-5">
-            <div id="vis2" class="vis-container"></div>
-          </div>
-  
-      </div>
-      <!-- end pure grid group -->
-
-</div> <!-- end page -->
-
-    <!-- pure grid group -->
-    <div class="pure-g">
-        <div class="pure-u-1-3">
-            <div id="vis4" class="vis-container"></div>
-          </div>  
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>Three Equal Columns</h2>
-          <p>Using all three columns without merging. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat
-            sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.</p>
+          <div id="vis2" class="vis-container"></div>
         </div>
       </div>
-      <div class="pure-u-1-3" style="width: 31.5%;">
-        <div id="vis3" class="vis-container" style="margin-left: 15px;"></div>
+      <!-- end pure grid group -->
+      <p style="font-size:30px">-------------------------------------------------------------------------------------------------------</p>
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-2-5">
+          <div class="description description-left">
+            <h2 style="font-size: 30px;"><span style="color:orange;font-weight:bold">Female</span> VS <span style="color:steelblue;font-weight:bold">Male</span> Athlete Analyzation</h2>
+            <p>Looking at the pie chart, <span style="color:orange;font-weight:bold">Female</span> athlete is approximately 46% and <span style="color:steelblue;font-weight:bold">Male</span> athelete is approximates 54%.<br>
+            <br>On the right normalized bar chart, obviously <span style="color:steelblue;font-weight:bold">Male</span> athelete participated is more than <span style="color:orange;font-weight:bold">Female</span> athlete. Or it has identical athlete.</p>
+          </div>
+          <div class="pure-u-2-5">
+            <div id="vis4" class="vis-container"></div>
+          </div>
+        </div>
+        <div class="pure-u-3-5" style="width: 31.5%;">
+          <div id="vis3" class="vis-container" style="margin-left: 15px;"></div>
+        </div>
       </div>
-
-    </div>
-    <!-- end pure grid group -->
-
-    <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
-        <p>This visualisation is created by <a href="https://fit3179.github.io/Vega-Lite/" target="_blank">FIT3179
-            Teaching Team</a>. The datasource is <a href="#" target=" _blank">some data repository online</href>.</p>
+      <!-- end pure grid group -->
+      <p style="font-size:30px">-------------------------------------------------------------------------------------------------------</p>
+      <div class="pure-g">
+        <div class="pure-u-1-1 small-font">
+          <p>This visualisation is created by <a href="https://fit3179.github.io/Vega-Lite/" target="_blank">Zhongxun Pan</a>.</p>
+        </div>
       </div>
     </div>
-
-  <script type="text/javascript">
-    var specVis1 = "./metal_map_chart.vg.json";
-    var specVis2 = "./medal_each_country_bar_chart.vg.json";
-    var specVis3 = "./gender_per_sports_normalized_chart.vg.json";
-    var specVis4 = "./pie_chart_gender.vg.json";
-
-    vegaEmbed('#vis1', specVis1, { "actions": false });
-
-    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-
-    vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-
-    vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script>
-</body>
-
+    <!-- end page -->
+    <script type="text/javascript">
+      var specVis1 = "./metal_map_chart.vg.json";
+      var specVis2 = "./medal_each_country_bar_chart.vg.json";
+      var specVis3 = "./gender_per_sports_normalized_chart.vg.json";
+      var specVis4 = "./pie_chart_gender.vg.json";
+      vegaEmbed('#vis1', specVis1, {
+        "actions": false
+      });
+      vegaEmbed('#vis2', specVis2, {
+        "actions": false
+      }).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      vegaEmbed('#vis3', specVis3, {
+        "actions": false
+      }).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      vegaEmbed('#vis4', specVis4, {
+        "actions": false
+      }).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+    </script>
+  </body>
 </html>

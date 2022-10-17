@@ -2,13 +2,9 @@ body *{
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    font-weight: 900;
-}
-
 body {
-    background-image: url("https://github.com/TIGER-RYM/beastmode/blob/main/background.jpeg");
-    background-color: #cccccc;
+    background-color: gray;
+    background-image: url("../background.jpg");
 }
 
 .page {
